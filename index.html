@@ -6,8 +6,8 @@
     <title>MabShop - Premium Products</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
-    <link rel="stylesheet" href="../Styles/output.css">
-    <link rel="stylesheet" href="../Styles/style.css"> 
+    <link rel="stylesheet" href="./src/Styles/output.css">
+    <link rel="stylesheet" href="./src/Styles/style.css"> 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body class="bg-gray-50 antialiased">
@@ -20,10 +20,10 @@
             
             <!-- Desktop Navigation -->
             <nav class="hidden md:flex space-x-8">
-                <a href="./index.html" class="nav-link text-blue-700 font-medium">Home</a>
-                <a href="./Pages/products.html" class="nav-link text-gray-700 font-medium">Products</a>
-                <a href="./Pages/contact.html" class="nav-link text-gray-700 font-medium">Contact</a>
-                <a href="./Pages/login.html" class="nav-link text-gray-700 font-medium">Login</a>
+                <a href="index.html" class="nav-link text-blue-700 font-medium">Home</a>
+                <a href="./src/Pages/products.html" class="nav-link text-gray-700 font-medium">Products</a>
+                <a href="./src/Pages/contact.html" class="nav-link text-gray-700 font-medium">Contact</a>
+                <a href="./src/Pages/login.html" class="nav-link text-gray-700 font-medium">Login</a>
                 <a href="#" class="text-gray-700 hover:text-primary relative">
                     <i class="fas fa-shopping-cart text-xl"></i>
                     <span class="absolute -top-2 -right-2 bg-accent text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">3</span>
@@ -57,8 +57,8 @@
                 <h2 class="shiny-text text-4xl md:text-5xl font-bold mb-6">Elevate Your Style with Premium Products</h2>
                 <p class="text-xl mb-8 text-blue-100">Discover curated collections that blend quality, style, and affordability for the modern lifestyle.</p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="./Pages/products.html" class="btn-primary text-white font-semibold px-8 py-4 rounded-lg text-center">Shop Collection</a>
-                    <a href="./Pages/contact.html" class="bg-white text-primary font-semibold px-8 py-4 rounded-lg text-center">Learn More</a>
+                    <a href="./src/Pages/products.html" class="btn-primary text-white font-semibold px-8 py-4 rounded-lg text-center">Shop Collection</a>
+                    <a href="./src/Pages/contact.html" class="bg-white text-primary font-semibold px-8 py-4 rounded-lg text-center">Learn More</a>
                 </div>
             </div>
             <div class="md:w-1/2 flex justify-center">
@@ -121,13 +121,13 @@
                     <h2 class="text-3xl font-bold">Featured Products</h2>
                     <p class="text-gray-600">Handpicked selections just for you</p>
                 </div>
-                <a href="./Pages/products.html" class="hidden md:block text-primary font-semibold hover:underline">View All →</a>
+                <a href="./src/Pages/products.html" class="hidden md:block text-primary font-semibold hover:underline">View All →</a>
             </div>
             
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md card-hover">
                     <div class="h-56 overflow-hidden">
-                        <img src="../Img/products/Coco-Chanel.avif" alt="Product" class="w-full h-full object-cover">
+                        <img src="./src/Img/products/Coco-Chanel.avif" alt="Product" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-start mb-2">
@@ -146,7 +146,7 @@
                 
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md card-hover">
                     <div class="h-56 overflow-hidden">
-                        <img src="../Img/products/Nike.avif" alt="Product" class="w-full h-full object-cover">
+                        <img src="./src/Img/products/Nike.avif" alt="Product" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-start mb-2">
@@ -168,7 +168,7 @@
                 
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md card-hover">
                     <div class="h-56 overflow-hidden">
-                        <img src="../Img/products/Wireless-Headphones.avif" alt="Product" class="w-full h-full object-cover">
+                        <img src="./src/Img/products/Wireless-Headphones.avif" alt="Product" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="font-semibold mb-2">Wireless Headphones</h3>
@@ -184,7 +184,7 @@
                 
                 <div class="bg-white rounded-2xl overflow-hidden shadow-md card-hover">
                     <div class="h-56 overflow-hidden">
-                        <img src="../Img/products/Smart_Watch.avif" alt="Product" class="w-full h-full object-cover">
+                        <img src="./src/Img/products/Smart_Watch.avif" alt="Product" class="w-full h-full object-cover">
                     </div>
                     <div class="p-6">
                         <h3 class="font-semibold mb-2">Smart Watch</h3>
@@ -215,7 +215,7 @@
                 <div class="testimonial-card rounded-2xl p-6 shadow-md">
                     <div class="flex items-center mb-4">
                         <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden mr-4">
-                            <img src="../Img/costomers/photo-1507003211169-0a1dd7228f2d.avif" alt="Customer" class="w-full h-full object-cover">
+                            <img src="./src/Img/costomers/photo-1507003211169-0a1dd7228f2d.avif" alt="Customer" class="w-full h-full object-cover">
                         </div>
                         <div>
                             <h4 class="font-semibold">Michael Chen</h4>
@@ -235,7 +235,7 @@
                 <div class="testimonial-card rounded-2xl p-6 shadow-md">
                     <div class="flex items-center mb-4">
                         <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden mr-4">
-                            <img src="../Img/costomers/ddcad0c2e1ace7acb47b72aa795472f6.jpg" alt="Customer" class="w-full h-full object-cover">
+                            <img src="./src/Img/costomers/ddcad0c2e1ace7acb47b72aa795472f6.jpg" alt="Customer" class="w-full h-full object-cover">
                         </div>
                         <div>
                             <h4 class="font-semibold">Sarah Johnson</h4>
@@ -255,7 +255,7 @@
                 <div class="testimonial-card rounded-2xl p-6 shadow-md">
                     <div class="flex items-center mb-4">
                         <div class="w-12 h-12 bg-gray-200 rounded-full overflow-hidden mr-4">
-                            <img src="../Img/costomers/bff1fe4a6ae1bf688f4e362a521e2b2c.jpg" alt="Customer" class="w-full h-full object-cover">
+                            <img src="./src/Img/costomers/bff1fe4a6ae1bf688f4e362a521e2b2c.jpg" alt="Customer" class="w-full h-full object-cover">
                         </div>
                         <div>
                             <h4 class="font-semibold">James Wilson</h4>
@@ -302,10 +302,10 @@
                 <div>
                     <h4 class="font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
-                        <li><a href="./index.html" class="text-gray-400 hover:text-white">Home</a></li>
-                        <li><a href="./Pages/products.html" class="text-gray-400 hover:text-white">Products</a></li>
-                        <li><a href="./Pages/contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
-                        <li><a href="./Pages/login.html" class="text-gray-400 hover:text-white">Login</a></li>
+                        <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="./src/Pages/products.html" class="text-gray-400 hover:text-white">Products</a></li>
+                        <li><a href="./src/Pages/contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="./src/Pages/login.html" class="text-gray-400 hover:text-white">Login</a></li>
                     </ul>
                 </div>
                 
@@ -335,16 +335,16 @@
             <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p class="text-gray-400">© 2023 StyleShop. All rights reserved.</p>
                 <div class="flex space-x-4 mt-4 md:mt-0">
-                    <img src="../Img/Bank/VISA-logo.png" alt="Visa" class="h-8">
-                    <img src="../Img/Bank/aceleda.jpg" alt="Mastercard" class="h-8">
-                    <img src="../Img/Bank/PayPal-Logo.wine.png" alt="American Express" class="h-8">
-                    <img src="../Img/Bank/unnamed.jpg" alt="PayPal" class="h-8">
+                    <img src="./src/Img/Bank/VISA-logo.png" alt="Visa" class="h-8">
+                    <img src="./src/Img/Bank/aceleda.jpg" alt="Mastercard" class="h-8">
+                    <img src="./src/Img/Bank/PayPal-Logo.wine.png" alt="American Express" class="h-8">
+                    <img src="./src/Img/Bank/unnamed.jpg" alt="PayPal" class="h-8">
                 </div>
             </div>
         </div>
     </footer>
-    <script src="../Scripts/menuToggle.js"></script>
-    <script src="../Scripts/configTailwind.js"></script>
+    <script src="./src/Scripts/menuToggle.js"></script>
+    <script src="./src/Scripts/configTailwind.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
