@@ -83,6 +83,7 @@ let products = [];
         const filteredProducts = products.filter(product => product.category === "men's clothing" || product.category === "women's clothing");
         displayedProducts = 0;
         displayProducts(filteredProducts);
+        console.log(filteredProducts);
         document.getElementById('load-more').classList.add('hidden');
     });
 
@@ -90,6 +91,7 @@ let products = [];
         const filteredProducts = products.filter(product => product.category === 'electronics');
         displayedProducts = 0;
         displayProducts(filteredProducts);
+        console.log(filteredProducts);
         document.getElementById('load-more').classList.add('hidden');
     });
 
@@ -97,6 +99,7 @@ let products = [];
         const filteredProducts = products.filter(product => product.category === 'jewelery');
         displayedProducts = 0;
         displayProducts(filteredProducts);
+        console.log(filteredProducts);
         document.getElementById('load-more').classList.add('hidden');
     });
     document.getElementById('load-more').addEventListener('click', function () {

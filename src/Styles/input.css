@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+/* Your custom theme colors */
+@theme {
+  --color-primary: #4F46E5;   /* Indigo-600 */
+  --color-secondary: #7C3AED; /* Purple-600 */
+  --color-accent: #10B981;    /* Emerald-500 */
+}
+
+/* Optional: you can also customize fonts, spacing, etc. inside @theme */

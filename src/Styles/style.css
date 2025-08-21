@@ -115,3 +115,12 @@
         .shiny-text.disabled {
         animation: none;
         }
+        .text-accent{
+        color: #10B981;
+        }
+        .text-primary {
+            color: #4F46E5;
+        }
+        .text-secondary {
+            color: #4338CA;
+        }

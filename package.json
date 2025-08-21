@@ -1,6 +1,12 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
-    "tailwindcss": "^4.1.12"
+    "tailwindcss": "^4.1.12" 
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/Styles/input.css -o ./src/Styles/output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
   }
 }
